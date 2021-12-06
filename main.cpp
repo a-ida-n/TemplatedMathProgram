@@ -10,6 +10,16 @@ T half(T num)
 	return result;
 }
 
+template<>
+int half<int>(int num)
+{
+	float tempResult = static_cast<float>(num) / 2;
+	std::cout << tempResult << '\n';
+	int result = round(tempResult);
+
+	return result;
+}
+
 int main()
 {
 	double a = 7.0;
