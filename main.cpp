@@ -1,4 +1,7 @@
-// TODO: comments here
+// Aidan Houck
+// CIS 1202 502
+// November 18, 2021
+// Divide many types of numbers in half using templated functions
 
 #include <iostream>
 
