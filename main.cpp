@@ -5,10 +5,9 @@
 template <class T>
 T half(T num)
 {
+	T result = num / 2;
 
-
-
-	return num;
+	return result;
 }
 
 int main()
@@ -17,9 +16,9 @@ int main()
 	float b = 5.0f;
 	int c = 3;
 
-	half(a);
-	half(b);
-	half(c);
+	std::cout << half(a) << '\n';
+	std::cout << half(b) << '\n';
+	std::cout << half(c) << '\n';
 
 	
 	std::cout << '\n';
